@@ -1,0 +1,76 @@
+.signup-wrapper{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(47, 40, 73);
+    margin:2rem 2rem;
+    padding:2rem 2rem;
+    align-content: space-around ;
+    text-align:center;
+    color: white;
+    width:300px;
+    max-width: 100%;
+    
+}
+
+.signup-form{
+    padding: 1rem;
+    display:flex;
+    max-width:100%;
+    flex-direction: column;
+    align-content: space-around ;
+    text-justify: center;
+}
+
+.signup-form-control{
+    margin:0.8rem 0;
+    padding-left: 1rem;
+    max-width:100%;
+    text-align: left;
+    justify-self: center;
+    height: 1.8rem;
+    border: 1px solid white;
+    background:transparent;
+    color:white
+}
+
+.signup-form-span{
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    font-size: 15px;
+    max-width:100%;
+}
+
+.signup-form-span-label{
+    color:rgb(179, 179, 179);
+}
+
+.signup-form-button{
+    margin-bottom:0.8rem ;
+    margin-top:0.2rem;
+    font-size: 16px;
+    width:100%;
+    text-align: center !important;
+    justify-content: center;
+    height: 2.2rem;
+    background-color:rgb(212, 59, 92);
+    border:none;
+    cursor: pointer;
+}
+
+.signup-form > a{
+    color:white;
+    text-decoration: none;
+}
+
+#signin-facebook{
+    width:20%;
+    height: 40px;
+}
+#signin-twitter{
+    width:20%;
+    height: 40px;
+}
